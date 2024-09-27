@@ -45,6 +45,7 @@ print(base64.b85encode(res).decode('ascii'))
 
 ## Installation
 
+Use this [online demo](https://github.com/xTimop/advanced-password-generator), or:
 1. Download `encryptor.min.html` from the [releases](https://github.com/xTimop/advanced-password-generator/releases/latest) tab
 2. Open `encryptor.min.html` in your preferred web browser.
 
