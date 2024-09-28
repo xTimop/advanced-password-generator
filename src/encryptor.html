@@ -11,17 +11,16 @@
     <form onsubmit="hashPassword(event)">
         <div class="form-group">
             <label for="password">Secret password:</label>
-            <input type="password" id="password" placeholder="Enter secret password only you know" required>
+            <input oninput="hashPassword(event)" type="password" id="password" placeholder="Enter secret password only you know" required>
         </div>
         <div class="form-group">
             <label for="service">Service name:</label>
-            <input type="text" id="service" placeholder="Enter the name of the website/service" required>
+            <input oninput="hashPassword(event)" type="text" id="service" placeholder="Enter the name of the website/service" required>
         </div>
         <div class="form-group">
             <label for="info">Additional info (e.g. account name):</label>
-            <input type="text" id="info" placeholder="(not required, useful for multi-accounts)">
+            <input oninput="hashPassword(event)" type="text" id="info" placeholder="(not required, useful for multi-accounts)">
         </div>
-        <button type="submit">Generate password</button>
     </form>
     <div class="form-group">
         <textarea id="result" readonly style="display: none;"></textarea>
