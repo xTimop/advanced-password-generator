@@ -54,8 +54,7 @@ Use this [online demo](https://github.com/xTimop/advanced-password-generator), o
 1. Enter your secret password in the designated input field. (only you should know it, store it in a safe place. You can use it for all the websites)
 2. Provide the name of the service you want to generate password for (e.g., "Discord", "Google", "Reddit").
 3. Optionally enter any additional information related to the account, if you want to create multiple passwords for the same service.
-4. Click the "Generate password" button to get your unique password.
-5. Copy the generated password from the text field under the button.
+4. Copy the generated password from the text field under the form.
 
 Make sure you remember all of your inputs.
 
